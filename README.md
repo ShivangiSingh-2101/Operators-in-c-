@@ -15,17 +15,17 @@ These conditions are evaluated using an if-else ladder, which checks the conditi
 
 Algorithm:
 
-Start the program.
-Include the header file #include <iostream>.
-Use the std namespace.
-Declare an integer variable num.
-Prompt the user to enter a number using cout.
-Read the number using cin and store it in num.
-Use an if-else ladder to evaluate:
-If num < 0, display "number is negative".
-Else if num > 0, display "number is positive".
-Else (i.e., num == 0), display "number is zero".
-End the program with return 0.
+- Start the program.
+- Include the header file #include <iostream>.
+- Use the std namespace.
+- Declare an integer variable num.
+- Prompt the user to enter a number using cout.
+- Read the number using cin and store it in num.
+- Use an if-else ladder to evaluate:
+- If num < 0, display "number is negative".
+- Else if num > 0, display "number is positive".
+- Else (i.e., num == 0), display "number is zero".
+- End the program with return 0.
 
 Program 3(2)
 Aim:
@@ -49,20 +49,20 @@ This kind of logic is useful in computer graphics, robotics, geometry problems, 
 
 Algorithm:
 
-Start the program.
-Include the header file #include <iostream> and use the std namespace.
-Declare two integer variables x and y.
-Prompt the user to enter values for x and y.
-Use cin to take input for both coordinates.
-Use the following conditions:
-If x > 0 and y > 0, print "Quadrant I".
-Else if x < 0 and y > 0, print "Quadrant II".
-Else if x < 0 and y < 0, print "Quadrant III".
-Else if x > 0 and y < 0, print "Quadrant IV".
-Else if x == 0 and y == 0, print "Origin".
-Else if x == 0, print "Point lies on Y-axis".
-Else if y == 0, print "Point lies on X-axis".
-End the program with return 0.
+- Start the program.
+- Include the header file #include <iostream> and use the std namespace.
+- Declare two integer variables x and y.
+- Prompt the user to enter values for x and y.
+- Use cin to take input for both coordinates.
+- Use the following conditions:
+- If x > 0 and y > 0, print "Quadrant I".
+- Else if x < 0 and y > 0, print "Quadrant II".
+- Else if x < 0 and y < 0, print "Quadrant III".
+- Else if x > 0 and y < 0, print "Quadrant IV".
+- Else if x == 0 and y == 0, print "Origin".
+- Else if x == 0, print "Point lies on Y-axis".
+- Else if y == 0, print "Point lies on X-axis".
+- End the program with return 0.
 
 Program3(3)
 Aim:
@@ -86,15 +86,15 @@ This approach demonstrates decision-making using conditional structures and basi
 
 Algorithm:
 
-Start the program.
-Include the header file #include <iostream> and use the std namespace.
-Declare four float variables: mark1, mark2, mark3, and sum.
-Prompt the user to enter marks for subject 1, subject 2, and subject 3.
-Use cin to input all three marks.
-Calculate the total using sum = mark1 + mark2 + mark3.
-Use if-else if conditions to assign a grade:
-If sum > 90, output "Grade A+".
-Else if sum > 80, output "Grade B+".
-Else if sum > 75, output "Grade B".
-Else if sum > 60, output "Grade C".Else, output "Grade F".
-End the program with return 0.
+- Start the program.
+- Include the header file #include <iostream> and use the std namespace.
+- Declare four float variables: mark1, mark2, mark3, and sum.
+- Prompt the user to enter marks for subject 1, subject 2, and subject 3.
+- Use cin to input all three marks.
+- Calculate the total using sum = mark1 + mark2 + mark3.
+- Use if-else if conditions to assign a grade:
+- If sum > 90, output "Grade A+".
+- Else if sum > 80, output "Grade B+".
+- Else if sum > 75, output "Grade B".
+- Else if sum > 60, output "Grade C".Else, output "Grade F".
+- End the program with return 0.
